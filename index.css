@@ -361,4 +361,25 @@ max-width: 300px; font-size: 16px;color:rgb(104, 104, 104);
     box-shadow: none;
     transform: translateY(4px);
   }
-  
+  .featuresection img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit:cover; /* Maintain aspect ratio */
+}
+
+.featuresection {
+    height: 80vh; /* Ensure the height remains consistent */
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    padding: 70px;
+}
+
+.featuresection .card {
+    display: flex; /* Use flexbox to center items */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text inside cards */
+}
+
