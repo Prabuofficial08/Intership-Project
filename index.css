@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: poppins, sans-serif;
+ }
+ body{
+    overflow-x: hidden;
+ }
+
+/*------------------------------HEADER-------------------------------*/
+.nav-item a{
+    font-size:.90rem;
+    font-weight: 500;
+    color:white;
+}
+.loginCTA{
+    color:white;
+}
+.loginCTA button:hover{
+    border: 1px solid white;
+}
+.navbar-brand img{
+    width:120px;
+     height:110px;
+   border-radius: 10px;
+
+}
+.navbar-toggler text{
+    color:white;
+}
+
+@media(max-width:576px){
+   
+    .nav-item{
+        margin-top: 20px;
+    }
+    .loginCTA button{
+        border: solid 1px white;
+    }
+    .navbar-brand img{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
+  
+/*-------------------------------------------------------------*/
+
+/*------------------------------HERO SECTION-------------------------------*/
+
+.tagline{
+    max-width: 800px;
+    height: 100vh auto; 
+    margin: auto;  
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 1000;
+    color: white;
+}
+
+.description{
+    font-size: 1.2rem;
+    color:rgb(219, 219, 219);
+    max-width: 500px;
+     height:auto;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 100px;
+}
+
+.heroCTA button{
+    width:200px;
+    height: 60px;
+    background-color: hsl(359, 96%, 91%);
+    color:black;
+    margin-top: -100px;
+}
+
+
+.heroCTA button:hover{
+   background-color:hsl(359, 78%, 84%);
+   border-radius: 5px;
+  
+}
+.heroCTA div:hover{
+    cursor: pointer;
+}
+.tagline:hover{
+    color:#f5e1e1;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+@media (max-width:1450px) {
+    .vectors{
+        display: none;
+    }
+    
+}
+
+@media (max-width:768px){
+   .tagline{
+    max-width: 500px;
+    font-size: 50px;
+
+   }
+   .map-svg{
+    display: none;
+   }
+
+}
+
+@media (max-width:568px){
+    .tagline{
+    max-width: 450px;
+     font-size: 35px;
+     margin-top: 6rem;
+    }
+   
+    .purple-earth{
+        display:block;
+        
+    }
+    
+ }
+ 
+.homepage{
+    width:100%;
+    height: 100vh;
+
+    background: hsla(253, 72%, 38%, 1);
+
+    background: linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    background: -moz-linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A1BA5", endColorstr="#431FC0", GradientType=1 );
+}
+/*---------------------------------------------------------------------*/
+
+.feature-container h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.feature-container p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+@media (max-width:568px) {
+    .featuresection{
+        margin-top: 320px;
+        padding: 0px;
+    }
+}
+
+
+@media (max-width:768px) {
+    
+    .featuresection{
+        margin-top: 400px;
+    }
+}
+
+
+.book-card:hover{
+    background-color: rgb(254, 210, 211);
+    cursor: pointer;
+}
+.book-card img:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+.book-card h2{
+    font-size: 20px;
+}
+.book-card p{
+    font-size: 17px;
+    padding: 20px;
+}
+.book-card{
+    max-height: 460px; max-width: 300px;
+}
+.card-body i{
+    color: gold;
+}
+
+.how-to-publish h2{
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color:#5b0eb4;
+    font-weight: 600;
+
+}
+.how-to-publish p{
+    font-size: 20px;
+}
+.how-to-publish{
+    margin-top: 1000px;
+}
+
+@media (min-width:1300px) {
+    .how-to-publish div{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .reviewsection{
+        scale: 0.9;
+    }
+}
+
+.reviewsection{
+    margin-top: 600px;
+}
+
+@media (max-width:768px) {
+    .booksection{
+        margin-top: 600px;
+    }
+    .book-card{
+        max-height: 380px;
+        margin-bottom: 50px;
+         
+    }
+    .book-body h2{
+   font-size: 18px;
+    }
+    .book-card p{
+        font-size: 14px;  
+    }
+    .book-card img{
+        scale: 1.2;
+    }
+    .how-to-publish{
+        margin-top: 1800px;
+    }
+    .reviewsection{
+        margin-top: 1600px;
+    }
+    .footer{
+        margin-top: 400px;
+    }
+
+}
+.footer{
+    background: hsla(253, 72%, 38%, 1);
+
+    background: linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    background: -moz-linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(253, 72%, 38%, 1) 12%, hsla(253, 72%, 44%, 1) 23%, hsla(254, 72%, 49%, 1) 35%, hsla(253, 75%, 51%, 1) 50%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3A1BA5", endColorstr="#431FC0", GradientType=1 );
+
+}
+.review-section-container .card{
+    background-color: rgb(227, 226, 226);
+}
+.review-section-container .card:hover{
+    background-color:rgb(254, 210, 211);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.product-select h2{
+   font-size: 25px;line-height: 2;  letter-spacing: 2px;
+}
+
+.product-select p{
+    font-size: 15px;
+    letter-spacing: 1px;
+ }
+
+ .detail-form p{
+max-width: 300px; font-size: 16px;color:rgb(104, 104, 104);
+ }
+ .detail-form label{
+    font-size: 30px;
+    line-height: 2;
+ }
+ .glass-morph{
+   
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.1); /* Transparent background */
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        backdrop-filter: blur(100%); /* Blur effect */
+        -webkit-backdrop-filter: blur(100%); /* For Safari support */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+ 
+ }
+ .detail-form input {
+    background: rgba(255, 255, 255, 0.249); /* Transparent background */
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        backdrop-filter: blur(100%); /* Blur effect */
+        -webkit-backdrop-filter: blur(100%); /* For Safari support */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+ }
+ .detail-form textarea {
+    background: rgba(255, 255, 255, 0.249); /* Transparent background */
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        backdrop-filter: blur(100%); /* Blur effect */
+        -webkit-backdrop-filter: blur(100%); /* For Safari support */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+ }
+ .detail-form select{
+    background: rgba(255, 255, 255, 0.249); /* Transparent background */
+        border-radius: 15px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        backdrop-filter: blur(100%); /* Blur effect */
+        -webkit-backdrop-filter: blur(100%); /* For Safari support */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+ }
+
+ .comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+ }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  
